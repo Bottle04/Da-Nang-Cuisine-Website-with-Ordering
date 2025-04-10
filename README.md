@@ -35,8 +35,13 @@ Online Food Ordering System in PHP
 
 ### Demo
 ![Trang chu](Picture6.jpg)
+
 ![Menu](Picture5.png)
+
 ![Dat mon](Picture4.png)
+
 ![Login admin](Picture3.png)
+
 ![Quan ly](Picture2.png)
+
 ![Oders](Picture1.png)
