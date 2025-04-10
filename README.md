@@ -34,14 +34,9 @@ Online Food Ordering System in PHP
 9.  All the login details are provided inside the project folder, check that out and enter them in order to use it. <br/>
 
 ### Demo
-![Trang chu](https://raw.githubusercontent.com/Bottle04/foodwebsite/main/images/Picture6.jpg)
-
-![Menu](https://raw.githubusercontent.com/Bottle04/foodwebsite/main/images/Picture5.jpg)
-
-![Dat mon](https://raw.githubusercontent.com/Bottle04/foodwebsite/main/images/Picture4.jpg)
-
-![Login admin](https://raw.githubusercontent.com/Bottle04/foodwebsite/main/images/Picture3.jpg)
-
-![Quan ly](https://raw.githubusercontent.com/Bottle04/foodwebsite/main/images/Picture2.jpg)
-
-![Oders](https://raw.githubusercontent.com/Bottle04/foodwebsite/main/images/Picture1.jpg)
+![Trang chu](Picture6.jpg)
+![Menu](Picture5.png)
+![Dat mon](Picture4.png)
+![Login admin](Picture3.png)
+![Quan ly](Picture2.png)
+![Oders](Picture1.png)
