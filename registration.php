@@ -52,8 +52,7 @@ if(isset($_POST['submit'] ))
        echo "<script>alert('Email Already exists!');</script>"; 
      }
 	else{
-       
-	 
+    
 	$mql = "INSERT INTO users(username,f_name,l_name,email,phone,password,address) VALUES('".$_POST['username']."','".$_POST['firstname']."','".$_POST['lastname']."','".$_POST['email']."','".$_POST['phone']."','".md5($_POST['password'])."','".$_POST['address']."')";
 	mysqli_query($db, $mql);
 	
@@ -116,7 +115,7 @@ if(isset($_POST['submit'] ))
                 </div>
             </nav>
         </header>
-        <div class="page-wrapper">
+        <div class="page-wrapper" style="padding-top: 80px;">
 
             <div class="container">
                 <ul>

@@ -26,7 +26,7 @@ include_once 'product-action.php';
 </head>
 
 <body>
-                        Visit My Website : developerrony.com -->
+
 
     <header id="header" class="header-scroll top-header headrom">
         <nav class="navbar navbar-dark">

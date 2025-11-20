@@ -56,7 +56,7 @@ else{
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="#">
-    <title>Checkout || Online Food Ordering System - Code Camp BD</title>
+    <title>Checkout || </title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/animsition.min.css" rel="stylesheet">

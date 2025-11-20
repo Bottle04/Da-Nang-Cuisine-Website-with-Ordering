@@ -1,13 +1,4 @@
-                <!-- /*!
-* Author Name: MH RONY.
-* GigHub Link: https://github.com/dev-mhrony
-* Facebook Link:https://www.facebook.com/dev.mhrony
-* Youtube Link: https://www.youtube.com/channel/UChYhUxkwDNialcxj-OFRcDw
-for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@gmail.com
-* Visit My Website : developerrony.com
-
-*/ -->
-                <?php
+    <?php
 
 include("../connection/connect.php");
 error_reporting(0);
@@ -31,15 +22,7 @@ echo "<script>alert('Form Details Updated Successfully');</script>";
   }
 
  ?>
-                <!-- /*!
- * Author Name: MH RONY.
- * GigHub Link: https://github.com/dev-mhrony
- * Facebook Link:https://www.facebook.com/dev.mhrony
- * Youtube Link: https://www.youtube.com/channel/UChYhUxkwDNialcxj-OFRcDw
- for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@gmail.com
- * Visit My Website : developerrony.com
- 
- */ -->
+
 
                 <script language="javascript" type="text/javascript">
 function f2() {
@@ -53,15 +36,6 @@ function f3() {
                 </script>
 
                 <head>
-                    <!-- /*!
-* Author Name: MH RONY.
-* GigHub Link: https://github.com/dev-mhrony
-* Facebook Link:https://www.facebook.com/dev.mhrony
-* Youtube Link: https://www.youtube.com/channel/UChYhUxkwDNialcxj-OFRcDw
-for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@gmail.com
-* Visit My Website : developerrony.com
-
-*/ -->
 
                     <meta charset="utf-8">
                     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -145,16 +119,6 @@ for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@
                 </head>
 
                 <body>
-                    <!-- /*!
-* Author Name: MH RONY.
-* GigHub Link: https://github.com/dev-mhrony
-* Facebook Link:https://www.facebook.com/dev.mhrony
-* Youtube Link: https://www.youtube.com/channel/UChYhUxkwDNialcxj-OFRcDw
-for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@gmail.com
-* Visit My Website : developerrony.com
-
-*/ -->
-
 
                     <div style="margin-left:50px;">
                         <form name="updateticket" id="updatecomplaint" method="post">
@@ -184,30 +148,11 @@ for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@
                                         </select></td>
                                 </tr>
 
-                                <!-- /*!
-* Author Name: MH RONY.
-* GigHub Link: https://github.com/dev-mhrony
-* Facebook Link:https://www.facebook.com/dev.mhrony
-* Youtube Link: https://www.youtube.com/channel/UChYhUxkwDNialcxj-OFRcDw
-for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@gmail.com
-* Visit My Website : developerrony.com
-
-*/ -->
 
                                 <tr>
                                     <td><b>Message</b></td>
                                     <td><textarea name="remark" cols="50" rows="10" required="required"></textarea></td>
                                 </tr>
-
-                                <!-- /*!
-* Author Name: MH RONY.
-* GigHub Link: https://github.com/dev-mhrony
-* Facebook Link:https://www.facebook.com/dev.mhrony
-* Youtube Link: https://www.youtube.com/channel/UChYhUxkwDNialcxj-OFRcDw
-for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@gmail.com
-* Visit My Website : developerrony.com
-
-*/ -->
 
 
                                 <tr>
@@ -218,37 +163,10 @@ for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@
                                     </td>
                                 </tr>
 
-
-
-                                <!-- /*!
-* Author Name: MH RONY.
-* GigHub Link: https://github.com/dev-mhrony
-* Facebook Link:https://www.facebook.com/dev.mhrony
-* Youtube Link: https://www.youtube.com/channel/UChYhUxkwDNialcxj-OFRcDw
-for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@gmail.com
-* Visit My Website : developerrony.com
-
-*/ -->
-
-
-
-
-
                             </table>
                         </form>
                     </div>
 
                 </body>
-                <!-- /*!
-* Author Name: MH RONY.
-* GigHub Link: https://github.com/dev-mhrony
-* Facebook Link:https://www.facebook.com/dev.mhrony
-* Youtube Link: https://www.youtube.com/channel/UChYhUxkwDNialcxj-OFRcDw
-for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@gmail.com
-* Visit My Website : developerrony.com
-
-*/ -->
-
                 </html>
-
-                <?php } ?>
+<?php } ?>

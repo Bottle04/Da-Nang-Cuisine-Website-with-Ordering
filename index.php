@@ -1,16 +1,10 @@
-<!--  Author Name: MH RONY.
-                        GigHub Link: https://github.com/dev-mhrony
-                        Facebook Link:https://www.facebook.com/dev.mhrony
-                        Youtube Link: https://www.youtube.com/channel/UChYhUxkwDNialcxj-OFRcDw
-                        for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@gmail.com  
-                        Visit My Website : developerrony.com -->
+
 <!DOCTYPE html>
 <html lang="en">
 <?php
 include("connection/connect.php");  
 error_reporting(0);  
-session_start(); 
-
+include_once 'language_handler.php'; 
 ?>
 
 <head>
@@ -20,7 +14,7 @@ session_start();
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="#">
-    <title>Home || Online Food Ordering System - Code Camp BD</title>
+    <title><?php echo t('title'); ?></title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/animsition.min.css" rel="stylesheet">
@@ -37,25 +31,26 @@ session_start();
                 <a class="navbar-brand" href="index.php"> <img class="img-rounded" src="images/logo.png" alt="" width="18%"> </a>
                 <div class="collapse navbar-toggleable-md  float-lg-right" id="mainNavbarCollapse">
                     <ul class="nav navbar-nav">
-                        <li class="nav-item"> <a class="nav-link active" href="index.php">Home <span class="sr-only">(current)</span></a> </li>
-                        <li class="nav-item"> <a class="nav-link active" href="restaurants.php">Restaurants <span class="sr-only"></span></a> </li>
+                        <li class="nav-item"> <a class="nav-link active" href="index.php"><?php echo t('home'); ?> <span class="sr-only">(current)</span></a> </li>
+                        <li class="nav-item"> <a class="nav-link active" href="restaurants.php"><?php echo t('restaurants'); ?> <span class="sr-only"></span></a> </li>
 
                         <?php
 						if(empty($_SESSION["user_id"])) // if user is not login
 							{
-								echo '<li class="nav-item"><a href="login.php" class="nav-link active">Login</a> </li>
-							  <li class="nav-item"><a href="registration.php" class="nav-link active">Register</a> </li>';
+								echo '<li class="nav-item"><a href="login.php" class="nav-link active">'.t('login').'</a> </li>
+							  <li class="nav-item"><a href="registration.php" class="nav-link active">'.t('register').'</a> </li>';
 							}
 						else
 							{
 
 									
-									echo  '<li class="nav-item"><a href="your_orders.php" class="nav-link active">My Orders</a> </li>';
-									echo  '<li class="nav-item"><a href="logout.php" class="nav-link active">Logout</a> </li>';
+									echo  '<li class="nav-item"><a href="your_orders.php" class="nav-link active">'.t('my_orders').'</a> </li>';
+									echo  '<li class="nav-item"><a href="logout.php" class="nav-link active">'.t('logout').'</a> </li>';
 							}
 
 						?>
-
+                        <li class="nav-item"><a href="?lang=en" class="nav-link active">EN</a></li>
+                        <li class="nav-item"><a href="?lang=ja" class="nav-link active">JA</a></li>
                     </ul>
 
                 </div>
@@ -64,10 +59,10 @@ session_start();
 
     </header>
 
-    <section class="hero bg-image" data-image-src="images/img/pimg.jpg">
+    <section class="hero bg-image" data-image-src="images/img/pimg.jpeg">
         <div class="hero-inner">
             <div class="container text-center hero-text font-white">
-                <h1>Order Delivery & Take-Out </h1>
+                <h1>Da Nang Delights </h1>
 
                 <div class="banner-form">
                     <form class="form-inline">
@@ -115,8 +110,8 @@ session_start();
     <section class="popular">
         <div class="container">
             <div class="title text-xs-center m-b-30">
-                <h2>Popular Dishes of the Month</h2>
-                <p class="lead">Easiest way to order your favourite food among these top 6 dishes</p>
+                <h2>Some best seller dishes</h2>
+    
             </div>
             <div class="row">
 

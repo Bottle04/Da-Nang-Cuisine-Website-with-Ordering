@@ -96,7 +96,7 @@ session_start();
                                         <li> <a class="has-arrow  " href="#" aria-expanded="false"><i class="fa fa-archive f-s-20 color-warning"></i><span class="hide-menu">Restaurant</span></a>
                                             <ul aria-expanded="false" class="collapse">
                                                 <li><a href="all_restaurant.php">All Restaurants</a></li>
-                                                <li><a href="add_category.php">Add Category</a></li>
+                                                <li><a href="add_category.php">Add Category</a></li> 
                                                 <li><a href="add_restaurant.php">Add Restaurant</a></li>
 
                                             </ul>
@@ -121,7 +121,7 @@ session_start();
 
                         <div class="page-wrapper">
                             <div style="padding-top: 10px;">
-                                <marquee onMouseOver="this.stop()" onMouseOut="this.start()"> </marquee>
+                            <marquee onMouseOver="this.stop()" onMouseOut="this.start()"> Welcome to our website Da Nang Delights. For any of your problems contact us on <a href="">Hieu Pham or Nguyen Canh</a> facebook group / page or message <a href="">Canh and Hieu</a> on facebook. Thanks for staying with <a href="">Da Nang Delights</a>.</marquee>
                             </div>
 
                            

@@ -1,14 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700|Give+You+Glory);
 
-/*!
- *  Author Name: MH RONY.
- *  GigHub Link: https://github.com/dev-mhrony
- *  Facebook Link:https://www.facebook.com/dev.mhrony
- *  Youtube Link: https://www.youtube.com/channel/UChYhUxkwDNialcxj-OFRcDw
-    for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@gmail.com  
- *  Visit My Website : developerrony.com 
 
-      */
 
 /* Table of Content
 *****************************************************
@@ -70,15 +62,7 @@ a:hover {
   font-weight: 400;
   color: #404048;
 }
-/*!
- *  Author Name: MH RONY.
- *  GigHub Link: https://github.com/dev-mhrony
- *  Facebook Link:https://www.facebook.com/dev.mhrony
- *  Youtube Link: https://www.youtube.com/channel/UChYhUxkwDNialcxj-OFRcDw
-    for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@gmail.com  
- *  Visit My Website : developerrony.com 
 
-      */
 ul {
   list-style-type: none;
   padding: 0;
@@ -118,23 +102,17 @@ hr {
 *===================================*/
 
 .page-wrapper {
-  padding-top: 68px;
-  /* Used for inpper pages if navigation fixed to the top */
+  padding-top: 90px ;
 }
+  
+  /* Used for inpper pages if navigation fixed to the top */
+
 
 .inner-page {
   margin-top: 30px;
   margin-bottom: 50px;
 }
-/*!
- *  Author Name: MH RONY.
- *  GigHub Link: https://github.com/dev-mhrony
- *  Facebook Link:https://www.facebook.com/dev.mhrony
- *  Youtube Link: https://www.youtube.com/channel/UChYhUxkwDNialcxj-OFRcDw
-    for any PHP, Laravel, Python, Dart, Flutter work contact me at developer.mhrony@gmail.com  
- *  Visit My Website : developerrony.com 
 
-      */
 /*==================================
 * Foms
 *===================================*/
@@ -164,10 +142,10 @@ hr {
 }
 
 .custom-radio .custom-control-input:checked ~ .custom-control-indicator {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0088"%3E%3Cpath fill="%23fff" d="M6.564.75l-3.593.612-1.538-1.55l04.262.9747.2582.193z"/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23fff' d='M6.564.75l-3.593.612-1.538-1.55l0 4.262.974 7.258 2.193z'/%3E%3C/svg%3E");
 }
 
-.custom-control-input:active ~ .custom-control-indicator {
+.custom-control-input:active ~ .custom-control-indicator {        
   color: #fff;
   background-color: #5c4ac7;
 }
@@ -178,7 +156,7 @@ hr {
 }
 
 .custom-control-input:disabled ~ .custom-control-description {
-  color: #76767;
+  color: #7676;
 }
 
 .custom-control {
@@ -188,8 +166,14 @@ hr {
 .form-control {
   border: 1px solid #eaebeb;
   border-radius: 2px;
+
+  box-sizing: border-box;
 }
 
+textarea.form-control {
+    width: 100%;
+    resize: vertical; 
+}
 .custom-select {
   line-height: 1;
 }
@@ -307,19 +291,19 @@ hr {
 }
 
 .b-l {
-  border-left: 1px solid #edeed;
+  border-left: 1px solid #eeeeee;
 }
 
 .b-r {
-  border-left: 1px solid #edeed;
+  border-left: 1px solid #eeeeee;
 }
 
 .b-t {
-  border-top: 1px solid #edeed;
+  border-top: 1px solid #eeeeee;
 }
 
 .b-b {
-  border-bottom: 1px solid #edeed;
+  border-bottom: 1px solid #eeeeee;
 }
 
 .b-b-0 {
@@ -853,7 +837,7 @@ hr {
 }
 
 @media (max-width: 543px) {
-  ...;
+ 
 }
 
 @media (min-width: 544px) and (max-width: 767px) {
@@ -914,7 +898,7 @@ hr {
 }
 
 @media (min-width: 1200px) {
-  ...;
+  
 }
 
 /*============================================
@@ -1132,7 +1116,7 @@ Steps
 }
 
 @media (min-width: 1200px) {
-  ...;
+  
 }
 
 /****** featured restaurants block *******/
@@ -1727,6 +1711,9 @@ footer li a {
   background: #fafaf8;
   border-radius: 3px;
   margin-bottom: 20px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .widget-heading {

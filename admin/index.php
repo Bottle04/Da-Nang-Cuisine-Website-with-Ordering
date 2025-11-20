@@ -50,8 +50,6 @@ if(isset($_POST['submit']))
 
                 <body>
 
-                    
-
                     <div class="container">
                         <div class="info">
                             <h1>Admin Panel </h1>
