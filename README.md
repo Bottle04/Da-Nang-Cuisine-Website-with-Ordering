@@ -44,4 +44,4 @@ Online Food Ordering System in PHP
 
 ![Quan ly](Picture2.png)
 
-![Oders](Picture1.jpg)
+![Oders](Picture1.png)
