@@ -34,14 +34,14 @@ Online Food Ordering System in PHP
 9.  All the login details are provided inside the project folder, check that out and enter them in order to use it. <br/>
 
 ### Demo
-![Trang chu](Picture6.png)
+![Trang chu](Picture1.png)
 
-![Menu](Picture5.png)
+![Menu](Picture2.png)
 
-![Dat mon](Picture4.png)
+![Dat mon](Picture3.png)
 
-![Login admin](Picture3.png)
+![Login admin](Picture4.png)
 
-![Quan ly](Picture2.png)
+![Quan ly](Picture5.png)
 
-![Oders](Picture1.png)
+![Oders](Picture6.png)
